@@ -1,10 +1,17 @@
 import React from 'react';
+import Hero from '../components/Hero.jsx'
+import aboutImg from '../assets/aboutImg.jpg'
+
 function Service() {
-    return ( 
+    return (
         <>
-         <h1>This is Service page</h1>
+            <Hero
+                cName="hero-mid"
+                heroImg={aboutImg}
+                title='Service'
+                btnClass="hide" />
         </>
-     );
+    );
 }
 
 export default Service;

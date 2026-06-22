@@ -1,8 +1,14 @@
 import React from 'react';
+import Hero from '../components/Hero.jsx'
+import aboutImg from '../assets/aboutImg.jpg'
 function About() {
     return ( 
         <>
-        <h1>This is About page</h1>
+         <Hero
+          cName="hero-mid"
+          heroImg={aboutImg}
+          title='About'
+          btnClass = "hide" />
         </>
      );
 }
