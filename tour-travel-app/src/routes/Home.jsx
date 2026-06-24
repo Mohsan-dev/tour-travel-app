@@ -3,6 +3,7 @@ import Hero from '../components/Hero.jsx'
 import homeImg from '../assets/homeImg.jpg'
 import Destination from '../components/Destination.jsx';
 import Trip from '../components/Trip.jsx';
+import Footer from '../components/Footer.jsx';
 function Home() {
     return ( 
         <>
