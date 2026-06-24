@@ -8,6 +8,7 @@ import Home from './routes/Home.jsx'
 import About from './routes/About.jsx'
 import Contact from './routes/Contact.jsx'
 import Service from './routes/Service.jsx'
+import Sign from './routes/Sign.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -17,6 +18,8 @@ const router = createBrowserRouter(
       <Route path='about' element = {<About/>}/>
       <Route path='contact' element = {<Contact/>}/>
       <Route path='service' element = {<Service/>}/>
+      <Route path='sign' element = {<Sign/>}/>
+
     </Route>  
   )
 )

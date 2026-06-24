@@ -1,0 +1,84 @@
+.sign-container {
+  min-height: 100vh;
+  background: #0d9e8a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.sign-box {
+  background: white;
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  width: 100%;
+  max-width: 380px;
+}
+
+.sign-box h1 {
+  margin: 0 0 6px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.sign-box p {
+  margin: 0 0 1.5rem;
+  font-size: 14px;
+  color: #888;
+  text-align: center;
+}
+
+.sign-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-box input {
+  height: 44px;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 0 14px;
+  font-size: 14px;
+  outline: none;
+  box-sizing: border-box;
+  margin-bottom: 14px;
+}
+
+.sign-box input:focus {
+  border-color: #0d9e8a;
+}
+
+.sign-box button {
+  height: 46px;
+  background: #0d9e8a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sign-box button:hover {
+  background: #0b8a79;
+}
+
+.login {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 13px;
+  color: #888;
+}
+
+.login span {
+  color: #0d9e8a;
+  font-weight: 500;
+  cursor: pointer;
+}
+@media screen and (max-width: 850px) {
+    .sign-box button{
+        display: inline;
+    }
+}

@@ -1,9 +1,10 @@
 import './NavbarStyles.css'
 import { MenuItems } from './Menuitems';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function Navbar() {
+    const navigate = useNavigate();
     const [clicked, setclicked] = useState(false)
     const handleclick = () => {
         setclicked(!clicked)
@@ -28,7 +29,7 @@ function Navbar() {
                             </Link>
                         </li>)
                 })}
-                <button>Sign Up</button>
+                <button onClick={() => navigate('/sign')}>Sign Up</button>
             </ul>
         </nav>
     )
